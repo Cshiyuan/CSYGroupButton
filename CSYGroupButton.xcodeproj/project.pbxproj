@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5D4D1E1E67CFCC00977194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D4D1D1E67CFCC00977194 /* main.m */; };
+		3D5D4D211E67CFCC00977194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D4D201E67CFCC00977194 /* AppDelegate.m */; };
+		3D5D4D241E67CFCC00977194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D4D231E67CFCC00977194 /* ViewController.m */; };
+		3D5D4D271E67CFCC00977194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D4D251E67CFCC00977194 /* Main.storyboard */; };
+		3D5D4D291E67CFCC00977194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D4D281E67CFCC00977194 /* Assets.xcassets */; };
+		3D5D4D2C1E67CFCC00977194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5D4D2A1E67CFCC00977194 /* LaunchScreen.storyboard */; };
+		3D5D4D3D1E67D02300977194 /* CSYGroupButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D4D3B1E67D02300977194 /* CSYGroupButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D5D4D191E67CFCC00977194 /* CSYGroupButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSYGroupButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5D4D1D1E67CFCC00977194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D5D4D1F1E67CFCC00977194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D5D4D201E67CFCC00977194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D5D4D221E67CFCC00977194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D5D4D231E67CFCC00977194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D5D4D261E67CFCC00977194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5D4D281E67CFCC00977194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5D4D2B1E67CFCC00977194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5D4D2D1E67CFCC00977194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5D4D3A1E67D02300977194 /* CSYGroupButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSYGroupButtonView.h; sourceTree = "<group>"; };
+		3D5D4D3B1E67D02300977194 /* CSYGroupButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSYGroupButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5D4D161E67CFCC00977194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5D4D101E67CFCC00977194 = {
+			isa = PBXGroup;
+			children = (
+				3D5D4D1B1E67CFCC00977194 /* CSYGroupButton */,
+				3D5D4D1A1E67CFCC00977194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5D4D1A1E67CFCC00977194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D4D191E67CFCC00977194 /* CSYGroupButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5D4D1B1E67CFCC00977194 /* CSYGroupButton */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D4D391E67D02300977194 /* CSYGroupButton */,
+				3D5D4D1F1E67CFCC00977194 /* AppDelegate.h */,
+				3D5D4D201E67CFCC00977194 /* AppDelegate.m */,
+				3D5D4D221E67CFCC00977194 /* ViewController.h */,
+				3D5D4D231E67CFCC00977194 /* ViewController.m */,
+				3D5D4D251E67CFCC00977194 /* Main.storyboard */,
+				3D5D4D281E67CFCC00977194 /* Assets.xcassets */,
+				3D5D4D2A1E67CFCC00977194 /* LaunchScreen.storyboard */,
+				3D5D4D2D1E67CFCC00977194 /* Info.plist */,
+				3D5D4D1C1E67CFCC00977194 /* Supporting Files */,
+			);
+			path = CSYGroupButton;
+			sourceTree = "<group>";
+		};
+		3D5D4D1C1E67CFCC00977194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D4D1D1E67CFCC00977194 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D5D4D391E67D02300977194 /* CSYGroupButton */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D4D3A1E67D02300977194 /* CSYGroupButtonView.h */,
+				3D5D4D3B1E67D02300977194 /* CSYGroupButtonView.m */,
+			);
+			path = CSYGroupButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5D4D181E67CFCC00977194 /* CSYGroupButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5D4D301E67CFCC00977194 /* Build configuration list for PBXNativeTarget "CSYGroupButton" */;
+			buildPhases = (
+				3D5D4D151E67CFCC00977194 /* Sources */,
+				3D5D4D161E67CFCC00977194 /* Frameworks */,
+				3D5D4D171E67CFCC00977194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSYGroupButton;
+			productName = CSYGroupButton;
+			productReference = 3D5D4D191E67CFCC00977194 /* CSYGroupButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5D4D111E67CFCC00977194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chenshyiuan;
+				TargetAttributes = {
+					3D5D4D181E67CFCC00977194 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WWFAK93RQR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D5D4D141E67CFCC00977194 /* Build configuration list for PBXProject "CSYGroupButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5D4D101E67CFCC00977194;
+			productRefGroup = 3D5D4D1A1E67CFCC00977194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5D4D181E67CFCC00977194 /* CSYGroupButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5D4D171E67CFCC00977194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5D4D2C1E67CFCC00977194 /* LaunchScreen.storyboard in Resources */,
+				3D5D4D291E67CFCC00977194 /* Assets.xcassets in Resources */,
+				3D5D4D271E67CFCC00977194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5D4D151E67CFCC00977194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5D4D241E67CFCC00977194 /* ViewController.m in Sources */,
+				3D5D4D211E67CFCC00977194 /* AppDelegate.m in Sources */,
+				3D5D4D3D1E67D02300977194 /* CSYGroupButtonView.m in Sources */,
+				3D5D4D1E1E67CFCC00977194 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D5D4D251E67CFCC00977194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5D4D261E67CFCC00977194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5D4D2A1E67CFCC00977194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5D4D2B1E67CFCC00977194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5D4D2E1E67CFCC00977194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D5D4D2F1E67CFCC00977194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5D4D311E67CFCC00977194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWFAK93RQR;
+				INFOPLIST_FILE = CSYGroupButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenshyiuan.CSYGroupButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D5D4D321E67CFCC00977194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWFAK93RQR;
+				INFOPLIST_FILE = CSYGroupButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenshyiuan.CSYGroupButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5D4D141E67CFCC00977194 /* Build configuration list for PBXProject "CSYGroupButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5D4D2E1E67CFCC00977194 /* Debug */,
+				3D5D4D2F1E67CFCC00977194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5D4D301E67CFCC00977194 /* Build configuration list for PBXNativeTarget "CSYGroupButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5D4D311E67CFCC00977194 /* Debug */,
+				3D5D4D321E67CFCC00977194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5D4D111E67CFCC00977194 /* Project object */;
+}
